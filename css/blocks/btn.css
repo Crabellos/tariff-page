@@ -1,0 +1,52 @@
+.btn {
+    width: 100%;
+    padding: 18px;
+    border: none;
+    border-radius: 16px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    color: #fff;
+    background: linear-gradient(270deg, #537CCB 0%, #13AED7 100%);
+    cursor: pointer;
+}
+
+.btn--margin {
+    margin: auto 0 0;
+}
+
+.btn--first:hover {
+    background: #537ccb;
+}
+
+.btn--first:focus-visible {
+    outline: none;
+    background: #537ccb;
+}
+
+.btn--secondary {
+    background: linear-gradient(270deg, #9548BD 0%, #547CCB 100%);
+}
+
+.btn--secondary:hover {
+    background: #9548Bd;
+}
+
+.btn--secondary:focus-visible {
+    outline: none;
+    background: #9548Bd;
+}
+
+.btn--third {
+    background: linear-gradient(270deg, #D812AE 0%, #9548BD 100%);
+}
+
+.btn--third:hover {
+    background: #d812ae;
+}
+
+.btn--third:focus-visible {
+    outline: none;
+    background: #d812ae;
+}
